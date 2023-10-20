@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss xmlns:sparkle="https://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>Knowd</title>
         <language>ko</language>
@@ -7,13 +7,13 @@
         <item>
             <title>Version 2.0.8</title>
             <pubDate>2023년 08월 23일, 금요일</pubDate>
-            <enclosure url="http://knowd.com/download/Knowd.zip" sparkle:version="2.0.8" sparkle:os="android"/>
+            <enclosure url="https://play.google.com/store/apps/details?id=com.sarchive.knowd" sparkle:version="2.0.8" sparkle:os="android"/>
         </item>
         <!-- iOS -->
         <item>
             <title>Version 2.0.8</title>
             <pubDate>2023년 08월 23일, 금요일</pubDate>
-            <enclosure url="http://knowd.com/download/Knowd.zip" sparkle:version="2.0.8" sparkle:os="android"/>
+            <enclosure url="https://apps.apple.com/us/app/knowd/id6446268083" sparkle:version="2.0.8" sparkle:os="ios"/>
         </item>
     </channel>
 </rss>
