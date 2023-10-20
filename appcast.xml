@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Knowd</title>
+        <language>ko</language>
+        <item>
+            <title>Version 1.0.0</title>
+            <pubDate>2023년 08월 23일, 금요일</pubDate>
+            <enclosure url="http://knowd.com/download/Knowd.zip" sparkle:version="1.0.0" sparkle:os="android"/>
+        </item>
+    </channel>
+</rss>
