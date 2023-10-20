@@ -16,9 +16,19 @@
             <enclosure url="https://apps.apple.com/us/app/knowd/id6446268083" sparkle:version="2.0.8" sparkle:os="ios"/>
         </item>
         <item>
-            <title>Version 2.0.8</title>
+            <title>Version 2.0.10</title>
             <pubDate>2023년 08월 23일, 금요일</pubDate>
             <enclosure url="https://apps.apple.com/us/app/knowd/id6446268083" sparkle:version="2.0.10" sparkle:os="ios"/>
+        </item>
+        <item>
+            <title>Version 2.0.11</title>
+            <pubDate>2023년 08월 23일, 금요일</pubDate>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <sparkle:version>2.0.11</sparkle:version>
+            <sparkel:tag>
+                <sparkel:sparkle:criticalUpdate></sparkel:sparkle:criticalUpdate>
+            </sparkel:tag>
+            <enclosure url="https://apps.apple.com/us/app/knowd/id6446268083" sparkle:os="ios"/>
         </item>
     </channel>
 </rss>
