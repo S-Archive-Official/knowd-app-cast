@@ -5,22 +5,17 @@
         <language>ko</language>
         <!-- Android -->
         <item>
-            <title>Version 2.0.8</title>
+            <title>Version 2.0.3</title>
             <pubDate>2023년 08월 23일, 금요일</pubDate>
-            <enclosure url="https://play.google.com/store/apps/details?id=com.sarchive.knowd" sparkle:version="2.0.8" sparkle:os="android"/>
+            <enclosure url="https://play.google.com/store/apps/details?id=com.sarchive.knowd" sparkle:version="2.0.3" sparkle:os="android"/>
         </item>
         <!-- iOS -->
         <item>
-            <title>Version 2.0.8</title>
+            <title>Version 2.0.3</title>
             <pubDate>2023년 08월 23일, 금요일</pubDate>
-            <enclosure url="https://apps.apple.com/us/app/knowd/id6446268083" sparkle:version="2.0.8" sparkle:os="ios"/>
+            <enclosure url="https://apps.apple.com/us/app/knowd/id6446268083" sparkle:version="2.0.3" sparkle:os="ios"/>
         </item>
-        <item>
-            <title>Version 2.0.10</title>
-            <pubDate>2023년 08월 23일, 금요일</pubDate>
-            <enclosure url="https://apps.apple.com/us/app/knowd/id6446268083" sparkle:version="2.0.10" sparkle:os="ios"/>
-        </item>
-        <item>
+        <!-- <item>
             <title>Version 2.0.11</title>
             <pubDate>2023년 08월 23일, 금요일</pubDate>
             <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
@@ -29,6 +24,6 @@
                 <sparkle:criticalUpdate></sparkle:criticalUpdate>
             </sparkle:tags>
             <enclosure url="https://apps.apple.com/us/app/knowd/id6446268083" sparkle:os="ios"/>
-        </item>
+        </item> -->
     </channel>
 </rss>

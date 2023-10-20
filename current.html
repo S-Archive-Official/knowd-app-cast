@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Current Time in RSS pubDate Format (Seoul Time)</title>
+</head>
+<body>
+    <p id="currentTime"></p>
+
+    <script>
+        function getCurrentTimeInRSSFormat() {
+            const now = new Date();
+            const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+            const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+            // 서울 표준시 UTC Offset (+9 hours)
+            const seoulOffset = 9 * 60;
+
+            // 서울 시간으로 조정
+            const adjustedTime = new Date(now.getTime() + seoulOffset* 60 * 1000);
+
+            const dayOfWeek = daysOfWeek[adjustedTime.getUTCDay()];
+            const day = adjustedTime.getUTCDate();
+            const month = months[adjustedTime.getUTCMonth()];
+            const year = adjustedTime.getUTCFullYear();
+            const hours = adjustedTime.getUTCHours().toString().padStart(2, '0');
+            const minutes = adjustedTime.getUTCMinutes().toString().padStart(2, '0');
+            const seconds = adjustedTime.getUTCSeconds().toString().padStart(2, '0');
+            const timezoneOffset = '+0900';
+
+            const rssPubDate = `${dayOfWeek}, ${day} ${month} ${year} ${hours}:${minutes}:${seconds} ${timezoneOffset}`;
+
+            return rssPubDate;
+        }
+
+        const currentTimeElement = document.getElementById('currentTime');
+        currentTimeElement.textContent = getCurrentTimeInRSSFormat();
+    </script>
+</body>
+</html>
