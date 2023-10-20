@@ -3,10 +3,17 @@
     <channel>
         <title>Knowd</title>
         <language>ko</language>
+        <!-- Android -->
         <item>
-            <title>Version 1.0.0</title>
+            <title>Version 2.0.8</title>
             <pubDate>2023년 08월 23일, 금요일</pubDate>
-            <enclosure url="http://knowd.com/download/Knowd.zip" sparkle:version="1.0.0" sparkle:os="android"/>
+            <enclosure url="http://knowd.com/download/Knowd.zip" sparkle:version="2.0.8" sparkle:os="android"/>
+        </item>
+        <!-- iOS -->
+        <item>
+            <title>Version 2.0.8</title>
+            <pubDate>2023년 08월 23일, 금요일</pubDate>
+            <enclosure url="http://knowd.com/download/Knowd.zip" sparkle:version="2.0.8" sparkle:os="android"/>
         </item>
     </channel>
 </rss>
