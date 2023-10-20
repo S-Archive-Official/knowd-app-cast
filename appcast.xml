@@ -15,5 +15,10 @@
             <pubDate>2023년 08월 23일, 금요일</pubDate>
             <enclosure url="https://apps.apple.com/us/app/knowd/id6446268083" sparkle:version="2.0.8" sparkle:os="ios"/>
         </item>
+        <item>
+            <title>Version 2.0.8</title>
+            <pubDate>2023년 08월 23일, 금요일</pubDate>
+            <enclosure url="https://apps.apple.com/us/app/knowd/id6446268083" sparkle:version="2.0.10" sparkle:os="ios"/>
+        </item>
     </channel>
 </rss>
