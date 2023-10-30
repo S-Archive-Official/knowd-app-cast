@@ -3,29 +3,12 @@
     <channel>
         <title>Knowd</title>
         <language>ko</language>
+        <!-- 3.0.0 -->
         <!-- Android -->
         <item>
             <title>Version 3.0.0</title>
             <pubDate>Tue, 24 Oct 2023 18:00:53 +0900</pubDate>
             <sparkle:version>3.0.0</sparkle:version>
-            <sparkle:tags>
-                <sparkle:criticalUpdate></sparkle:criticalUpdate>
-            </sparkle:tags>
-            <enclosure url="https://play.google.com/store/apps/details?id=com.sarchive.knowd" sparkle:os="android"/>
-        </item>
-        <item>
-            <title>Version 3.0.1</title>
-            <pubDate>Wed, 25 Oct 2023 16:44:42 +0900</pubDate>
-            <sparkle:version>3.0.1</sparkle:version>
-            <sparkle:tags>
-                <sparkle:criticalUpdate></sparkle:criticalUpdate>
-            </sparkle:tags>
-            <enclosure url="https://play.google.com/store/apps/details?id=com.sarchive.knowd" sparkle:os="android"/>
-        </item>
-        <item>
-            <title>Version 3.0.2</title>
-            <pubDate>Thu, 26 Oct 2023 09:01:33 +0900</pubDate>
-            <sparkle:version>3.0.2</sparkle:version>
             <sparkle:tags>
                 <sparkle:criticalUpdate></sparkle:criticalUpdate>
             </sparkle:tags>
@@ -42,6 +25,18 @@
             </sparkle:tags>
             <enclosure url="https://apps.apple.com/us/app/knowd/id6446268083" sparkle:os="ios"/>
         </item>
+        <!-- 3.0.1 -->
+        <!-- Android -->
+        <item>
+            <title>Version 3.0.1</title>
+            <pubDate>Wed, 25 Oct 2023 16:44:42 +0900</pubDate>
+            <sparkle:version>3.0.1</sparkle:version>
+            <sparkle:tags>
+                <sparkle:criticalUpdate></sparkle:criticalUpdate>
+            </sparkle:tags>
+            <enclosure url="https://play.google.com/store/apps/details?id=com.sarchive.knowd" sparkle:os="android"/>
+        </item>
+        <!-- iOS -->
         <item>
             <title>Version 3.0.1</title>
             <pubDate>Wed, 25 Oct 2023 16:44:42 +0900</pubDate>
@@ -52,11 +47,45 @@
             </sparkle:tags>
             <enclosure url="https://apps.apple.com/us/app/knowd/id6446268083" sparkle:os="ios"/>
         </item>
+        <!-- 3.0.2 -->
+        <!-- Android -->
+        <item>
+            <title>Version 3.0.2</title>
+            <pubDate>Thu, 26 Oct 2023 09:01:33 +0900</pubDate>
+            <sparkle:version>3.0.2</sparkle:version>
+            <sparkle:tags>
+                <sparkle:criticalUpdate></sparkle:criticalUpdate>
+            </sparkle:tags>
+            <enclosure url="https://play.google.com/store/apps/details?id=com.sarchive.knowd" sparkle:os="android"/>
+        </item>
+        <!-- iOS -->
         <item>
             <title>Version 3.0.2</title>
             <pubDate>Thu, 26 Oct 2023 09:01:33 +0900</pubDate>
             <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
             <sparkle:version>3.0.2</sparkle:version>
+            <sparkle:tags>
+                <sparkle:criticalUpdate></sparkle:criticalUpdate>
+            </sparkle:tags>
+            <enclosure url="https://apps.apple.com/us/app/knowd/id6446268083" sparkle:os="ios"/>
+        </item>
+        <!-- 3.0.3 -->
+        <!-- Android -->
+        <item>
+            <title>Version 3.0.3</title>
+            <pubDate>Mon, 30 Oct 2023 09:55:50 +0900</pubDate>
+            <sparkle:version>3.0.3</sparkle:version>
+            <sparkle:tags>
+                <sparkle:criticalUpdate></sparkle:criticalUpdate>
+            </sparkle:tags>
+            <enclosure url="https://play.google.com/store/apps/details?id=com.sarchive.knowd" sparkle:os="android"/>
+        </item>
+        <!-- iOS -->
+        <item>
+            <title>Version 3.0.3</title>
+            <pubDate>Mon, 30 Oct 2023 09:55:50 +0900</pubDate>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <sparkle:version>3.0.3</sparkle:version>
             <sparkle:tags>
                 <sparkle:criticalUpdate></sparkle:criticalUpdate>
             </sparkle:tags>
